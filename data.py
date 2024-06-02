@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("ꜱᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ⚡", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("ꜱᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ✨", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
@@ -13,27 +13,27 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ✨", url="https://t.me/NXETWORK/4")],
+        [InlineKeyboardButton("ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/NXETWORK/4")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/STORM_CHATZ")],
+        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ❄️", url="https://t.me/STORM_CHATZ")],
     ]
 
     START = """
-ʜᴇʏ {}
+ʜᴇʏ 💐
 
 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
 ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ,
 1) ꜱᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
-2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ
+2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ 
 
 ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
-ʙʏ @FriendCastel
+ʙʏ @STORM_CHATZ ☁️
     """
 
     HELP = """
@@ -52,9 +52,7 @@ class Data:
 
 ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ @STORM_CHATZ
 
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴛᴀᴋᴇ ɪᴛ ꜰʀᴏᴍ ᴏᴡɴᴇʀ](https://t.me/STORM_CHATZ)
-
 ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-ᴅᴇᴠᴇʟᴏᴘᴇʀ : [⏤͟͞〲ʟᴜ͢ᴄᴋʏ </>](https://t.me/KKEX_XD)
+ᴅᴇᴠᴇʟᴏᴘᴇʀ : [Kᴜɴᴀʟ ᶻ 𝘇 𐰁](https://t.me/kexx_xd)
     """
