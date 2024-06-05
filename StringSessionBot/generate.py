@@ -149,7 +149,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     text = f"**{ty.upper()} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ** \n\n`{string_session}` \n\nɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @stromsessiongenerator_bot"
     try:
         if not is_bot:
-            await client.send_message("me", text)
+            await bot.send_message(msg.chat.id, text)
         else:
             await bot.send_message(msg.chat.id, text)
     except KeyError:
