@@ -18,15 +18,15 @@ app = Client(
 
 
 if __name__ == "__main__":
-    logging.info("Starting the bot")
+    logging.info("ꜱᴛᴀʀᴛɪɴɢ ᴛʜᴇ ʙᴏᴛ")
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
-        raise Exception("Your API_ID/API_HASH is not valid.")
+        raise Exception("ʏᴏᴜʀ ᴀᴘɪ_ɪᴅ/ᴀᴘɪ_ʜᴀꜱʜ ɪꜱ ɴᴏᴛ ᴠᴀʟɪᴅ")
     except AccessTokenInvalid:
-        raise Exception("Your BOT_TOKEN is not valid.")
+        raise Exception("ʏᴏᴜʀ ʙᴏᴛ_ᴛᴏᴋᴇɴ ɪꜱ ɴᴏᴛ ᴠᴀʟɪᴅ.")
     uname = app.me.username
-    logging.info(f"@{uname} is now running!")
+    logging.info(f"@{uname} ɪꜱ ɴᴏᴡ ʀᴜɴɴɪɴɢ!")
     idle()
     app.stop()
-    logging.info("Bot stopped. Alvida!")
+    logging.info("!! ʙᴏᴛ ꜱᴛᴏᴘᴘᴇᴅ !!")
